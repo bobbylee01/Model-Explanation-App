@@ -1,12 +1,12 @@
 # Explain the Model
 
-**App:** _paste your public app link here_
+**App:** (https://bobbylee01.github.io/Model-Explanation-App/)
 
 | Section | Direct link | My viewer should walk away knowing… |
 |---|---|---|
-| Push & Pull (linear regression) | _link_ | _one sentence_ |
-| Wisdom of the Forest (random forest) | _link_ | _one sentence_ |
-| One Correction at a Time (gradient boosting) | _link_ | _one sentence_ |
+| Push & Pull (linear regression) | https://bobbylee01.github.io/Model-Explanation-App/#linear | The viewers should understand how a starting prediction is adjusted by each feature's signed contribution |
+| Wisdom of the Forest (random forest) | https://bobbylee01.github.io/Model-Explanation-App/#forest | The viewers should understand how 100 different decision trees combine their predictions through averaging |
+| One Correction at a Time (gradient boosting) | https://bobbylee01.github.io/Model-Explanation-App/#boosting | The viewers should understand how sequential trees correct predictions and why validation error helps determine when to stop |
 
 An app that explains three regression models to an anonymous visitor who knows about machine learning and regression, but not how these algorithms work. Datasets: NHANES fasting glucose, blood pressure and lung function.
 
