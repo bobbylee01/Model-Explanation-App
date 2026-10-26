@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Explain the Model</title>
+  <meta name="description" content="Explore how linear regression, random forests, and boosting build predictions, using three real datasets.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23245dc1'/%3E%3Cpath d='M7 24V8M7 24h18M11 20l5-7 5 3 5-10' fill='none' stroke='white' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#section">Skip to the model explorer</a>
+  <header class="dashboard-header">
+    <div class="brand-row"><div><p class="eyebrow">THE REGRESSION LAB</p><h1>Explain the Model</h1></div><p class="header-description">Three ways to build a prediction.<br>Explore the steps behind the numbers.</p></div>
+    <nav aria-label="Regression model sections">
+      <a href="#linear"><span class="nav-number" aria-hidden="true">01</span><span><strong>Push &amp; Pull</strong><small>Linear regression &middot; feature contributions</small></span></a>
+      <a href="#forest"><span class="nav-number" aria-hidden="true">02</span><span><strong>Wisdom of the Forest</strong><small>Random forest &middot; averaging trees</small></span></a>
+      <a href="#boosting"><span class="nav-number" aria-hidden="true">03</span><span><strong>One Correction at a Time</strong><small>Boosting &middot; learning in rounds</small></span></a>
+    </nav>
+    <div class="selection-panel">
+      <div class="selection-heading"><strong>Choose your example</strong><span>The same supplied people across all three models.</span></div>
+      <div class="controls">
+        <label for="dataset">Dataset<select id="dataset" aria-describedby="selection-context"></select></label>
+        <label for="person">Example participant<select id="person" aria-describedby="selection-context"></select></label>
+      </div>
+      <p id="selection-context" class="note" role="status">Loading supplied examples...</p>
+    </div>
+  </header>
+  <main id="section" tabindex="-1"></main>
+  <footer>Explore model associations in real survey data. Predictions describe fitted patterns, not causal effects.</footer>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
